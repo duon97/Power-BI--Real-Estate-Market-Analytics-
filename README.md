@@ -79,7 +79,8 @@ Overview - what does the market look like?
 - Which size band has the most sale and rental listings?
 - How do amenities and furnishing show up across listings?
 
-<img ... />
+<img width="1053" height="672" alt="image" src="https://github.com/user-attachments/assets/5a4f29c4-0912-4683-bb37-93046260ac97" />
+
 
 Insights
 - Quarterly listings fluctuate cyclically (~215-285 per quarter) with no long-term upward or downward trend. The deepest trough is around Q3 2022.
@@ -99,7 +100,7 @@ Price Drivers - what influences property value?
 - Does floor level make a difference?
 - How do bedrooms and bathrooms combine to influence price?
 
-<img ... />
+<img width="1422" height="713" alt="image" src="https://github.com/user-attachments/assets/e2fa0c0a-07b7-43f3-a4f3-4e125b3fedc6" />
 
 Insights
 - Amenities do not add value cumulatively. Elevator + gym + pool averages the lowest price/sqm (€2.5K), below no amenities (€3.0K). Elevator + Pool is the highest pairing (€3.5K). Hypothesis (untested): amenities signal a market segment rather than cause higher prices.
@@ -116,7 +117,7 @@ How fast are properties selling?
 - Which countries sell fastest, and at what price level?
 - Which properties stay longest on the market?
 
-<img ... />
+<img width="1212" height="580" alt="image" src="https://github.com/user-attachments/assets/387acdc1-630f-4c1e-9db4-185518ed9cfe" />
 
 Insights
 - The whole market is slow. All 10 countries average 162-183 days on market, nearly double the 90-day benchmark.
@@ -132,7 +133,7 @@ Investor opportunities finder
 - Which property type offers the best mix of rental income and price growth?
 - Which cities combine high rental yield and strong capital growth?
 
-<img ... />
+<img width="1185" height="565" alt="image" src="https://github.com/user-attachments/assets/4a375b24-f066-441b-9802-6579adbbf64d" />
 
 Insights
 - Vienna and Berlin are the most attractive cities: highest rental yield (5.2%, 5.0%) and top Investor Score.
@@ -144,29 +145,18 @@ Insights
 ### EXPLORE - FIND AND COMPARE PROPERTIES EASILY
 Browse and compare individual properties in every dimension.
 
-<img ... />
+<img width="1133" height="638" alt="image" src="https://github.com/user-attachments/assets/7b303ddd-0fb6-4f7d-b1b4-68a25feb17d2" />
 
 ## IV. Insight and Recommendation
 
-| Page | Insight | Recommendation | Audience |
-|---|---|---|---|
-| Overview | No long-term trend in listings; cyclical swings | Do not read single-quarter moves as a trend; track a rolling 4-quarter total | Analysts |
-| Overview | Belgium has ~42% fewer listings than Italy/Austria at the same price | Check whether this reflects supply, platform coverage or demand before calling it low activity | Analysts, product team |
-| Overview | Medium (100-200 sqm) dominates sale and rental listings | Run benchmarks and listing-quality checks on Medium first, where volume is | Analysts, product team |
-| Overview | ~35% of listings have bathrooms unspecified | Make bathrooms a required field; report the Unspecified share in any bathroom analysis | Product team |
-| Price Drivers | All-three-amenities listings have the lowest price/sqm (€2.5K) | Do not use amenity count as a price proxy; control for property type and location in valuation | Product team, analysts |
-| Price Drivers | Price/sqm rises with size band (€2.4K to €4.0K) | Benchmark within size band, not only by city average | Analysts, agents |
-| Price Drivers | Energy rating shows no clear price pattern | Do not assume a better rating raises price; retest within city and property type | Analysts |
-| Price Drivers | Buildings under 20 years carry a premium (€4.2K, €3.7K vs ~€3.1-3.3K) | Segment valuations by age band; check whether the premium survives controlling for city | Analysts, agents |
-| Price Drivers | Floor number shows no relationship with price/sqm | Do not add a floor premium to valuation heuristics without evidence; retest with elevator = Yes | Analysts, agents |
-| Price Drivers | Bedroom/bathroom combinations show no clear pattern; extremes are in thin cells | Avoid per-combination price rules until cell sizes are checked | Analysts |
-| Price Drivers | Residential Extra Large: €6.55K/sqm and 265 days on market | Treat as high-value, low-liquidity; test price reductions here first (small-sample caution) | Agents, investors |
-| Market Liquidity | All countries average 162-183 days vs 90-day benchmark | Add days-on-market and stale-listing indicators to the platform | Product team |
-| Market Liquidity | Country and property type explain little of the speed gap | Do not use them as the main liquidity filter; look at listing-level factors (price vs comparables, amenities, condition) | Analysts |
-| Market Liquidity | ~44% of listings sit 180+ days | Trigger repricing prompts for listings past 90 days | Agents, product team |
-| Market Liquidity | Price level does not track speed | A/B test price reductions before assuming discounting speeds up sales | Product team |
-| Investor Opportunities | Vienna and Berlin lead on yield and Investor Score | Shortlist both; check liquidity before committing | Investors |
-| Investor Opportunities | Paris and Amsterdam are priciest but low-yield | Do not treat price as a quality signal; favor mid-priced cities for income | Investors |
-| Investor Opportunities | Brussels has the highest capital gain (116.9%) | Treat as a lead to validate: Capital Gain % is a pre-calculated estimate | Investors |
-| Investor Opportunities | Residential balances growth and income; Mixed Use leads on yield only (~7% of listings); Commercial trails on both | Residential for balanced returns; Mixed Use as a niche income play with small-sample caution; deprioritize Commercial | Investors |
-
+| Page | Insight | Recommendation |
+|---|---|---|
+| Overview | ~35% of listings have bathrooms unspecified | Make bathrooms a required field on the platform, and report the Unspecified share in any bathroom analysis |
+| Price Drivers | Amenities do not add value cumulatively: elevator + gym + pool has the lowest price/sqm (€2.5K) | Do not use amenity count as a price proxy. Control for property type and location in valuation models |
+| Price Drivers | Price/sqm rises with size band (€2.4K to €4.0K), and buildings under 20 years carry a premium (€4.2K, €3.7K vs ~€3.1-3.3K) | Benchmark within size and age band, not only by city average. Check the age premium holds after controlling for city |
+| Price Drivers | Residential Extra Large: €6.55K/sqm and 265 days on market | High value, low liquidity. Test price reductions here first (small sample, validate before acting) |
+| Market Liquidity | The whole market is slow (162-183 days) and ~44% of listings sit 180+ days, while country and property type explain little | Add stale-listing indicators and repricing prompts past 90 days. Look at listing-level drivers (price vs comparables, condition), not country or type |
+| Market Liquidity | Price level does not track speed | A/B test price reductions before assuming discounting speeds up sales |
+| Investor Opportunities | Vienna and Berlin lead on yield and Investor Score; Paris and Amsterdam are priciest but low-yield | Shortlist Vienna and Berlin and check liquidity before committing. Do not treat high price as a quality signal for income |
+| Investor Opportunities | Brussels has the highest capital gain (116.9%) | Treat as a lead to validate, not a pick: Capital Gain % is a pre-calculated estimate |
+| Investor Opportunities | Residential balances growth and yield; Mixed Use leads on yield only (~7% of listings) | Residential for balanced returns. Mixed Use as a niche income play, with small-sample caution |
