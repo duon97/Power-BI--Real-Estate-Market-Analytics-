@@ -50,8 +50,8 @@ Key Questions to Explore
 ## II. Design Thinking
 
 ### STEP 1: Empathize
+<img width="2280" height="690" alt="Designer (4)" src="https://github.com/user-attachments/assets/66db4dc6-707b-4de4-b869-a5422ecf206e" />
 
-Three personas were considered: the analyst needing market-wide patterns, the investor needing yield and growth comparisons, and the buyer/agent needing to understand what drives a specific property's price and time-to-sell.
 
 ### STEP 2: Define POV
 
