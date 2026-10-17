@@ -72,80 +72,101 @@ Chart types were chosen to match each question's data structure: bar charts for 
 ## III. Visualization
 
 ### OVERVIEW
-
-Overview - what does the Market Look Like?
-- How listings have changed over time
-- Are there locations that show  high property values bur lower market activity ?
+Overview - what does the market look like?
+- How have listings changed over time?
+- Are there locations with high property values but lower market activity?
 - What types of properties dominate the market?
-- Which Property Size Band have the highest Sale Listings and Rental Listings ?
-- How features like amenities and furnishing show up across listings ?
-<img width="1226" height="745" alt="image" src="https://github.com/user-attachments/assets/546aa9cc-4475-4214-9ada-2e79fbd7c9d4" />
+- Which size band has the most sale and rental listings?
+- How do amenities and furnishing show up across listings?
 
+<img ... />
+
+Insights
+- Quarterly listings fluctuate cyclically (~215-285 per quarter) with no long-term upward or downward trend. The deepest trough is around Q3 2022.
+- Listing volume is fairly even across countries (0.3K-0.7K). The most expensive countries (France €5.2K/sqm, Netherlands €4.8K/sqm) are not the least active.
+- Closest exception to "high value, low activity": Belgium. It has the fewest listings (305) at a mid-range price (€2.8K/sqm), the same price as Italy and Austria, which have ~530-536 listings (Belgium ~42% fewer).
+- Residential dominates the market (3.2K of 5K listings), followed by Commercial (1.4K) and Mixed Use (0.4K).
+- Medium (100-200 sqm) dominates both sale (1,261) and rental (851) listings. Rental listings sit below sale listings in every size band.
+- 1,775 listings (~35%) have bathrooms unspecified, the largest group, ahead of 2 bathrooms (1,661) and 1 bathroom (1,280).
 
 ### PRICE DRIVERS
-
-Price Drivers - what Influences Property Value?
-- Do amenities like gyms or pools really increase value?
-- Do Properties size band influences price ?
-- Are bigger properties always more expensive per square meter?
-- Does age influences price ?
+Price Drivers - what influences property value?
+- Do amenities like gyms or pools increase value?
+- Does size band influence price?
+- Are bigger properties always more expensive per sqm?
+- Is energy efficiency more expensive per sqm?
+- Does age influence price?
 - Does floor level make a difference?
 - How do bedrooms and bathrooms combine to influence price?
-<img width="1415" height="707" alt="image" src="https://github.com/user-attachments/assets/192a46fa-6f75-4b3d-b4f9-819824e0d088" />
+
+<img ... />
+
+Insights
+- Amenities do not add value cumulatively. Elevator + gym + pool averages the lowest price/sqm (€2.5K), below no amenities (€3.0K). Elevator + Pool is the highest pairing (€3.5K). Hypothesis (untested): amenities signal a market segment rather than cause higher prices.
+- Price/sqm rises with size band: Extra Large €4.0K, Large €3.5K, Medium €3.1K, Small €2.8K, Micro €2.4K. Medium has the most listings; Extra Large has the fewest. Most listings fall in the 50-200 sqm range.
+- Energy rating shows no clear pattern. A-rated properties are not priced highest (B is highest, ~€3.4K/sqm).
+- Newer buildings carry a premium: <11 years €4.2K/sqm, 11-20 years €3.7K, versus ~€3.1K-3.3K for older bands.
+- Floor number has no visible relationship with price/sqm.
+- Price/sqm ranges roughly €2.5K-3.7K across bedroom/bathroom combinations with no clear monotonic pattern. The highest cell (~€3.7K) is in the 4-bathroom row, which has only 61 listings.
+- Residential Extra Large has the highest price/sqm (€6.55K) and the longest days on market (265 vs 172 overall), a high-value, slow-selling segment.
 
 ### MARKET LIQUIDITY
-How fast a property selling ?
-- How many listing each day-on-market band has ?
-- which countries sell property fastest, and what price level comes with that speed?
-- Which properties stay longest on the market ?
-<img width="1222" height="592" alt="image" src="https://github.com/user-attachments/assets/51fc4b7a-3478-4958-916b-e06c8e42b6ec" />
+How fast are properties selling?
+- How many listings sit in each days-on-market band?
+- Which countries sell fastest, and at what price level?
+- Which properties stay longest on the market?
+
+<img ... />
+
+Insights
+- The whole market is slow. All 10 countries average 162-183 days on market, nearly double the 90-day benchmark.
+- Country barely matters. Fastest (Czech Republic, 162) vs slowest (Netherlands, 183) differ by only ~21 days.
+- The problem is long-tail listings: ~44% sit 180+ days and only ~28% are at 90 days or less.
+- Property type barely matters either. Retail is slowest (178), Villa fastest (164).
+- Price does not track speed. Czech Republic is cheap and fast, Netherlands expensive and slow, France expensive but average.
 
 ### INVESTOR OPPORTUNITIES
-Investor opptunities finder
-- Which cities might present the most attractive opportunities for real estate investors?
-- Highest Avg Capital Gain % by Country ?
+Investor opportunities finder
+- Which cities offer the most attractive opportunities?
+- Which countries have the highest average capital gain %?
 - Which property type offers the best mix of rental income and price growth?
-- Which cities offer both high rental yield and strong capital growth?
-<img width="1206" height="612" alt="image" src="https://github.com/user-attachments/assets/ac588967-5af3-42f5-818e-26e90a8abdef" />
+- Which cities combine high rental yield and strong capital growth?
 
-### EXPLORE - FIND AND COMPARE PROPERTIES EASILY .
+<img ... />
 
-Browse and comapre individual property in every dimension 
-<img width="1035" height="585" alt="image" src="https://github.com/user-attachments/assets/a572de84-b365-4565-8b4b-f3c353dfc7de" />
+Insights
+- Vienna and Berlin are the most attractive cities: highest rental yield (5.2%, 5.0%) and top Investor Score.
+- Higher price does not mean higher yield. Paris (€5.2K/sqm) is the highest-value city but has the lowest yield (3.6%, tied with Rome). Amsterdam (€4.8K/sqm) yields 4.0%.
+- Brussels is the growth pick: highest capital gain (116.9%) with a 4.6% yield, but a lower Investor Score than Berlin and Vienna.
+- Residential is the most balanced: highest capital gain (~100%) and a solid yield (4.5%).
+- Mixed Use has the highest yield (4.8%) but the lowest capital gain (~57%). Commercial trails Residential on both (3.8% yield, ~68% gain).
 
+### EXPLORE - FIND AND COMPARE PROPERTIES EASILY
+Browse and compare individual properties in every dimension.
+
+<img ... />
 
 ## IV. Insight and Recommendation
 
-### 1. Price Drivers
-
-**Price per sqm rises with property size .** Medium has the most listings but lower price/sqm; Extra Large has the fewest listings but highest price/sqm. 
-The majority of listings fall within small to mid-sized ranges (50–200 sqm), reflecting the core of market supply and demand.  
-
-**Age influence price** Properties built within the last 50 years achieve above-average rental income, indicating stronger tenant demand for modern housing
-
-**Amenities do not add value cumulatively.** Properties with all three amenities (elevator, gym, pool) average the lowest price per sqm (€2.5K) of any amenity combination, lower than having none (€3.0K). Elevator+Pool is the most valuable pairing (€3.5K). Amenities appear to signal a market segment rather than directly cause price increases.
-
-**Bedroom-bathroom combinations follow standard real estate economics.** 1-bedroom/1-bathroom properties command the highest price per sqm (€3.01K), decreasing as room count rises, consistent with fixed costs being spread over more area in larger configurations. This is the cleanest, most theory-consistent result in the dataset.
-
-### 2. Market Liquidity
-
-**Market-wide slowdown:** All 10 countries average 162-183 days on market, nearly double the 90-day benchmark.
-
-**Country and property type matter little:** Fastest vs. slowest country differs by only ~21 days (Czech Republic 162, Netherlands 183). Property types differ by ~14 days (Villa 164, Retail 178).
-
-**Long-tail listings drive the problem:** ~44% of listings sit 180+ days; only ~28% sell within 90 days.
-
-**Price doesn't track speed:** Cheap markets (Czech Republic) and expensive ones (Netherlands) show no consistent relationship with days on market.
-
-### 3. Investor Opportunities
-
-**Vienna and Berlin rank highest** on rental yield (5.2%, 5.0%) and on the custom Investor Score (60 each).
-
-**Higher price does not mean higher yield** in this dataset. Paris (€5.2K/sqm, 3.6%) and Amsterdam (€4.8K/sqm, 4.0%) are the most expensive but have among the lowest yields.
-
-**Brussels has the highest capital gain** (116.9%) with a 4.6% yield.
-
-**Residential has the highest capital gain** (~100%) with a 4.5% yield.
-
-**Mixed Use has the highest yield** (4.8%) but the lowest capital gain. It is also the smallest segment (~7% of listings).
+| Page | Insight | Recommendation | Audience |
+|---|---|---|---|
+| Overview | No long-term trend in listings; cyclical swings | Do not read single-quarter moves as a trend; track a rolling 4-quarter total | Analysts |
+| Overview | Belgium has ~42% fewer listings than Italy/Austria at the same price | Check whether this reflects supply, platform coverage or demand before calling it low activity | Analysts, product team |
+| Overview | Medium (100-200 sqm) dominates sale and rental listings | Run benchmarks and listing-quality checks on Medium first, where volume is | Analysts, product team |
+| Overview | ~35% of listings have bathrooms unspecified | Make bathrooms a required field; report the Unspecified share in any bathroom analysis | Product team |
+| Price Drivers | All-three-amenities listings have the lowest price/sqm (€2.5K) | Do not use amenity count as a price proxy; control for property type and location in valuation | Product team, analysts |
+| Price Drivers | Price/sqm rises with size band (€2.4K to €4.0K) | Benchmark within size band, not only by city average | Analysts, agents |
+| Price Drivers | Energy rating shows no clear price pattern | Do not assume a better rating raises price; retest within city and property type | Analysts |
+| Price Drivers | Buildings under 20 years carry a premium (€4.2K, €3.7K vs ~€3.1-3.3K) | Segment valuations by age band; check whether the premium survives controlling for city | Analysts, agents |
+| Price Drivers | Floor number shows no relationship with price/sqm | Do not add a floor premium to valuation heuristics without evidence; retest with elevator = Yes | Analysts, agents |
+| Price Drivers | Bedroom/bathroom combinations show no clear pattern; extremes are in thin cells | Avoid per-combination price rules until cell sizes are checked | Analysts |
+| Price Drivers | Residential Extra Large: €6.55K/sqm and 265 days on market | Treat as high-value, low-liquidity; test price reductions here first (small-sample caution) | Agents, investors |
+| Market Liquidity | All countries average 162-183 days vs 90-day benchmark | Add days-on-market and stale-listing indicators to the platform | Product team |
+| Market Liquidity | Country and property type explain little of the speed gap | Do not use them as the main liquidity filter; look at listing-level factors (price vs comparables, amenities, condition) | Analysts |
+| Market Liquidity | ~44% of listings sit 180+ days | Trigger repricing prompts for listings past 90 days | Agents, product team |
+| Market Liquidity | Price level does not track speed | A/B test price reductions before assuming discounting speeds up sales | Product team |
+| Investor Opportunities | Vienna and Berlin lead on yield and Investor Score | Shortlist both; check liquidity before committing | Investors |
+| Investor Opportunities | Paris and Amsterdam are priciest but low-yield | Do not treat price as a quality signal; favor mid-priced cities for income | Investors |
+| Investor Opportunities | Brussels has the highest capital gain (116.9%) | Treat as a lead to validate: Capital Gain % is a pre-calculated estimate | Investors |
+| Investor Opportunities | Residential balances growth and income; Mixed Use leads on yield only (~7% of listings); Commercial trails on both | Residential for balanced returns; Mixed Use as a niche income play with small-sample caution; deprioritize Commercial | Investors |
 
