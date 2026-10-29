@@ -60,10 +60,12 @@ North star metric
 - Market Liquidity: Average days on market
 - Investor Opportunities: Perccentage of Average Capital Gain (%), Percentage of Gross Rental Yield (%)
 - Property value drivers: Price per square meter
+<img width="1024" height="388" alt="image" src="https://github.com/user-attachments/assets/a8a72b98-9e46-4501-a176-9362c8db3e73" />
 
 ### STEP 3: Ideate
 
 Four report pages were planned: Overview (market pulse), Price Drivers (what influences value), Market Liquidity (what slows sales down), Investor Opportunities (where to invest) and Property Deepdive (Explorer - find and compare properties easily)
+<img width="1327" height="591" alt="image" src="https://github.com/user-attachments/assets/9567c964-3a0f-4c99-bd13-1f9cd5253ca7" />
 
 ### STEP 4: Prototype and Review
 
